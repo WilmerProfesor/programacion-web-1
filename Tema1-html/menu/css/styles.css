@@ -1,0 +1,85 @@
+body {
+    background-image: url("../img/fondo2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fondo {
+    background-color: white;
+    width: 40vw;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+
+.section {
+    background-color: rgba(224, 121, 121, 0.8);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    position: relative;
+}
+
+.section h2 {
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    position: absolute;
+    top: -35px;
+    left: 20px;
+}
+
+.section ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 200px;
+}
+
+.section li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    position: absolute;
+    object-fit: cover;
+    top: 20px;
+    right: 25px;
+}
+
+.img2 {
+    margin-top: 20px;
+    top: 20px;
+    
+}
+
+

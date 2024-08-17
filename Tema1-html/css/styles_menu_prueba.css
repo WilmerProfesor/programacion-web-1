@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-color: rgb(233, 230, 230); */
+    background-color: rgb(84, 18, 0);
+}
+
+#container{
+    width: 80vw;
+    height: 100vh;
+    background-color: #A93401;
+    margin-left: 10vw;
+    margin-top: 5vh;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+
+.seccion{
+    width: 80%;
+    height: 30%;
+    background-color: rgb(140, 69, 14);
+    margin-left: 10%;
+    border-radius: 15px; 
+    padding: 10px;   
+}
+
+.products{
+    /* border: solid white; */
+    width: 60%;
+    display: inline-block;
+}
+
+.products p{
+    display: inline-block;
+}
+
+.text{
+    width: 70%;
+}
+
+.image{
+    /* border: solid yellow; */
+    width: 39%;
+    display: inline-block;    
+}
+
+.image img{
+    
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px gray;  
+    max-height: 150PX;  
+}
+
+
+
+
