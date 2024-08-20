@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: aquamarine;
+}
+
+.border{
+    border: solid black;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;    
+}
+
+#block{    
+    display: flex;
+    flex-direction: row;
+}
+
+#sections{
+    display: flex;
+    flex-direction: row;
+}
+
+#publish{
+    background-color: rgb(62, 62, 200);
+}
+
+#news{
+    background-color: blueviolet;
+}
+#sections section{
+    width: 50%;
+}
+
+aside{
+    width: 50%;
+    background-color:chocolate;
+}
+
+main{
+    width: 50%;
+}
+
+footer{
+    background-color: orange;
+}
