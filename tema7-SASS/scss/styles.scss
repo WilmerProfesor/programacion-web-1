@@ -1,0 +1,21 @@
+$box-shadow-bottom: 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+// SCSS
+$ancho: 750px;
+
+@import "colores";
+h1{    
+    color: $color-green;
+}
+// SCSS
+ul {
+    list-style: none;
+    li {
+        padding: 15px;
+        display: inline-block;
+        a{
+            text-decoration: none;
+            font-size: 16px;
+            color: #444;
+        }
+    }
+}
