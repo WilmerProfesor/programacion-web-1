@@ -1,0 +1,106 @@
+ul li {
+  box-shadow: 5px 5px 15px black;
+  padding: 5px 10px;
+  width: 90px;
+  border-radius: 15px;
+  background-color: rgba(179, 37, 37, 0.707);
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+ul li a {
+  text-decoration: none;
+}
+ul li:hover {
+  background-color: rgba(179, 172, 37, 0.707);
+}
+
+#row-7, #row-6, #row-5, #row-4, #row-3, #row-2, #row-1 {
+  padding: 6px 0px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#row-1 {
+  background-color: rgb(103, 154, 103);
+}
+
+#row-2 {
+  background-color: rgb(151, 228, 151);
+}
+
+#row-3 {
+  background-color: rgb(103, 154, 103);
+}
+
+#row-4 {
+  background-color: rgb(151, 228, 151);
+}
+
+#row-5 {
+  background-color: rgb(103, 154, 103);
+}
+
+#row-6 {
+  background-color: rgb(151, 228, 151);
+}
+
+#row-7 {
+  background-color: rgb(103, 154, 103);
+}
+
+#animal-1 {
+  display: inline-block;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwyXeKDN29AmZgZPLS7n0Bepe8QmVappBwZCeA3XWEbWNdiDFB");
+  background-size: cover;
+  alt: "perro";
+  width: 200px;
+  height: 200px;
+  border: solid;
+}
+#animal-1::after {
+  content: "perro";
+  color: yellow;
+  text-shadow: 0px 0px 3px black;
+  font-size: 2rem;
+}
+
+#animal-2 {
+  display: inline-block;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSWjnSd77lh-vRDBbCR0LfDCWgAaLHB-0kw&s");
+  background-size: cover;
+  alt: "gato";
+  width: 200px;
+  height: 200px;
+  border: solid;
+}
+#animal-2::after {
+  content: "gato";
+  color: yellow;
+  text-shadow: 0px 0px 3px black;
+  font-size: 2rem;
+}
+
+#animal-3 {
+  display: inline-block;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRFQgquSaSx4DrZRcbXp_qvqjLJZklsdI7xg&s");
+  background-size: cover;
+  alt: "conejo";
+  width: 200px;
+  height: 200px;
+  border: solid;
+}
+#animal-3::after {
+  content: "conejo";
+  color: yellow;
+  text-shadow: 0px 0px 3px black;
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

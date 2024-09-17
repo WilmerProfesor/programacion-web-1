@@ -1,0 +1,75 @@
+@import "colors";
+@import "dimensions";
+
+%botton-style{
+    box-shadow: $sombra; 
+    padding: 5px 10px;
+    width: $booton-width+10px;  
+    border-radius: 15px;
+    background-color: $color-rojo-institucional;
+    text-align: center;
+}
+
+ul{
+    list-style: none;    
+    li{        
+        @extend %botton-style;
+        display: inline-block;
+        margin-right: 30px;        
+        a{
+            text-decoration: none;
+        }
+        &:hover{
+            background-color: $color-verde-institucional;
+        }
+    }
+}
+
+
+
+%stylesRows{
+    padding: 6px 0px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+@for $i from 1 through 7{
+    #row-#{$i}{
+        @extend %stylesRows;
+        @if $i%2==0{
+            background-color: rgb(151, 228, 151);
+        }@else{
+            background-color: rgb(103, 154, 103);
+        }
+    }
+}
+
+$imagenes:(
+    perro: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwyXeKDN29AmZgZPLS7n0Bepe8QmVappBwZCeA3XWEbWNdiDFB"),
+    gato: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUSWjnSd77lh-vRDBbCR0LfDCWgAaLHB-0kw&s"),
+    conejo: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRFQgquSaSx4DrZRcbXp_qvqjLJZklsdI7xg&s")
+);
+
+$n:1;
+
+@each $animal, $url in $imagenes{
+    #animal-#{$n}{  
+        display: inline-block;      
+        background-image: #{$url};
+        background-size: cover;    
+        alt: "#{$animal}";
+        width: 200px;
+        height: 200px;
+        border: solid;
+        &::after{
+            content: "#{$animal}";            
+            color: yellow;
+            text-shadow: 0px 0px 3px black;     
+            font-size: 2rem;       
+        }
+    }        
+    $n:$n+1;
+} 
+
+
+
