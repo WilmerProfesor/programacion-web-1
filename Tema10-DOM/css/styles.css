@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.314);
+}
+
+.bottonBasic{
+    background-color: rgb(49, 44, 44);
+    width: 50px;
+    height: 50px;
+    color: white;
+}
