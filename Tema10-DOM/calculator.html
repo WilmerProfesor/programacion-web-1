@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="sweetalert2.min.css">
 </head>
 <body>
     <div id="container">
-        <header></header>
+        <header></header>        
         <main>
             <form action="">
-                <input id="screen" type="text" class="bottonBasic">
+                <input id="screen" type="text">
                 <input type="button" value="7" class="bottonBasic">
                 <input type="button" value="8" class="bottonBasic">
                 <input type="button" value="9" class="bottonBasic">
@@ -21,11 +22,15 @@
                 <input type="button" value="1" class="bottonBasic">
                 <input type="button" value="2" class="bottonBasic">
                 <input type="button" value="3" class="bottonBasic">
+                <input type="button" value="." class="bottonBasic">
             </form>
         </main>
         <footer>
             <p>Por: S:P.C. Calculadora 2024</p>
         </footer>
     </div>        
+    <script src="sweetalert2.min.js"></script>
+    
+    <script src="./js/calculator.js"></script>
 </body>
 </html>

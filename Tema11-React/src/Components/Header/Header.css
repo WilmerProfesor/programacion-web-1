@@ -1,0 +1,12 @@
+header{
+    background-color: rgb(188, 185, 185);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#logoHeader{
+    height: 150px;
+    border-radius: 50%;
+}
