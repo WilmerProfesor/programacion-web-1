@@ -10,6 +10,7 @@ const Footer = () => {
 
 
     useEffect(()=>{
+        axios
         console.log(`Se llamó el Hook porque se actualizó el contador-->",${counter}`);        
     }, [counter]);
 
