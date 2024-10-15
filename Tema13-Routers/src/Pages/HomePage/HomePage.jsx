@@ -1,4 +1,6 @@
-import {useState,useEffect} from 'react'
+import {useState,useEffect} from 'react';
+
+import {Link} from "react-router-dom";
 
 import "./HomePage.css";
 
@@ -15,16 +17,18 @@ const HomePage = () => {
     },[]);
 
   return (
-    <div >
-        {data.map((element)=>{
+    // <div >
+        data.map((element)=>{
             return (
-                <div id="chards-home">
-                    <ChardCard name={element.name} img={element.image}/>
+                <div className="chards-home">
+                    <Link to={"/details/"+element.id}>
+                        <ChardCard name={element.name} img={element.image}/>
+                    </Link>
                 </div>
             )
         }
-        )}
-    </div>
+        )
+    // </div>
     
 
   )
