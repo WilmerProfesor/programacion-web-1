@@ -10,7 +10,7 @@ const UserCard=(props)=> {
       <CardActionArea>
         <CardMedia
           component="img"
-          height="140"
+          // height="140"
           image={props.avatar_url}
           alt="green iguana"
         />

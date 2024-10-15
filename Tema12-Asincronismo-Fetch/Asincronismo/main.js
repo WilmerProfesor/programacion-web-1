@@ -1,7 +1,7 @@
-fetch("https://api.github.com/users")
-    .then(response => response.json())
-    .then((dato)=>{console.log(dato);})
-    .catch(error=>console.log(error))
+// fetch("https://api.github.com/users")
+//     .then(response => response.json())
+//     .then((dato)=>{console.log(dato);})
+//     .catch(error=>console.log(error))
 
 
 
