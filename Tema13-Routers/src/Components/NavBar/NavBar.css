@@ -1,0 +1,14 @@
+.list-nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    height: 30px;
+    background-color: gray;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.li-nav{
+    list-style: none;
+}

@@ -1,0 +1,13 @@
+
+#titleErrorPage{
+    color: red;
+    font-size: 4rem;
+}
+#error-Page{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
